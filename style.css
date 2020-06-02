@@ -1,0 +1,163 @@
+ol {
+border: 8px solid white;
+color: white;
+margin-left: 30px;
+width: 18%;
+}
+h2 {
+  margin-left: 0px;
+  font-family: fantasy,sans-serif;
+  font-style: italic;
+}
+.heading {
+  color: white;
+  font-style: oblique;
+  font-family: cursive,sans-serif,serif,fantasy;
+  font-size: 60px;
+  align: center;
+}
+h4 {
+  font-size: 30px;
+}
+.topic {
+  font-family: fantasy,sans-serif;
+  font-style: italic;
+  font-size: 80px;
+}
+a:hover {
+  color: pink;
+}
+.col-4, .col-6  {
+  margin-top: 5px;
+  padding: 0px;
+  border: 2px solid white;
+}
+body {
+  background-color: black;
+  color: white;
+
+}
+.col-8 {
+  border: 5px solid white;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.rotateimg10 {
+  -webkit-transform:rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+  margin: 10px;
+}
+#column-8 {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.rotateimg350 {
+  -webkit-transform:rotate(350deg);
+  -moz-transform: rotate(350deg);
+  -ms-transform: rotate(350deg);
+  -o-transform: rotate(350deg);
+  transform: rotate(350deg);
+  margin: 10px;
+}
+#column-6 {
+  border: 5px solid white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#imagemi {
+  margin-left: 30px;
+}
+#header {
+  border-bottom: 3px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+   color: white;
+   background-color: lightblue;
+  }
+  a:link {
+    color: hotpink;
+  }
+  a:visited {
+    color: lightpink;
+  }
+  a:hover {
+    color: orange;
+  }
+  font {
+    color: lightblue;
+  }
+  table td {
+    color: lightpink;
+  }
+  table th {
+    color: #0c1b59;
+  }
+}
+td {
+  color: aqua;
+}
+th {
+  color: lightblue;
+}
+h4 {
+  font-family: "Showcard Gothic";arial;
+}
+#h4 {
+  border: 8px solid white;
+  padding: 50px;
+}
+.first_div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+table {
+  background-image: url(https://i.pinimg.com/originals/26/8a/95/268a955d57345099d8e92ebace616ac0.png);
+  background-size: cover;
+}
+#font {
+  font-family: "Bradley Hand ITC";"Blackadder ITC"; arial;"Harlow Solid Italic";
+  font-size: 20px;
+}
+#bg_img {
+  background-image: url(https://images2.alphacoders.com/261/thumb-1920-26102.jpg);
+  background-size: cover;
+}
+#bg_img1 {
+  height: 150px;
+  background-size: cover;
+}
+#horror_font {
+  font-family: chiller; algerian; arial;
+  font-size: 20px;
+}
+#scifi_font {
+  font-family: "Courier New"; arial;
+}
+#thriller_font {
+  font-family: "Lucida Handwriting"; arial;
+}
+div h3 {
+  font-family: sans-serif;
+}
+#edu_font {
+  font-family: "Lucida Calligraphy"; sans-serif;
+}
+#divider1, #divi_1 {
+  height: 100px;
+  background-size: cover;
+  background-image: url(https://wallup.net/wp-content/uploads/2014/08/light-blue-cubes-vector.jpg);
+  border: 3px solid white;
+}
